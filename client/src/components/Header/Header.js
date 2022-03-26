@@ -14,7 +14,7 @@ const Header = () => {
 
     const [user, setUser] = useState(JSON.parse(sessionStorage.getItem('profile')))
 
-    // const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('theme')))
+    const [theme, setTheme] = useState(JSON.parse(localStorage.getItem('theme')))
 
     const { isLight } = useSelector((state) => state.theme)
 
