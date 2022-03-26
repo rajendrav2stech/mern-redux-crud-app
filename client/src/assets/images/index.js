@@ -1,0 +1,5 @@
+export { default as AUTH_BANNER } from './authentication.png'
+export { default as LOGO } from './logo.png'
+export { default as MAIN_LOGO } from './main-logo.png'
+export { default as DARK_LOGO } from './dark-logo.png'
+export { default as SIGN_BANNER } from './sign-in.svg'
